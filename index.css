@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  background: linear-gradient(to left, #1312122f, #c0c0c23d);
+  color: #050505;
+  padding: 20px;
+}
+
+.flag-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center;
+}
+
+.country {
+  text-align: center;
+  cursor: pointer;
+}
+
+.flag {
+  width: 200px;
+  height: 150px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.pagination button {
+  background-color: #5470c4;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  
+  text-align: center;
+}
+
+.pagination button[disabled] {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.page-link{
+  text-align: center;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  max-width: 80%;
+  text-align: center;
+}
+.flag-details {
+  display: none;
+  
+}
+
